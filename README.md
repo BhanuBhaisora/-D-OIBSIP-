@@ -1,6 +1,3 @@
-Got it 👍 You’re asking for a **README.md template** suitable for an **HTML, CSS, and JavaScript project** (not Node/Yarn like the Maker example). Here’s a clean version you can directly use in your GitHub repo:
-
----
 
 # Oasis Web Development
 
