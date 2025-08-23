@@ -50,13 +50,13 @@ Alternatively, you can use the **Live Server extension in VS Code** for auto-ref
 ## 🛠 Project Structure
 
 ```bash
-OIBSIP_WebDevelopment_Task1/
+OIBSIP_WebDevelopment_Task/
 │
 ├── index.html        # Main HTML file  
 ├── style.css         # CSS file for styling  
 ├── script.js         # JavaScript file for interactivity  
 ├── assets/           # Images, icons, or other resources  
-└── README.md         # Project documentation
+ README.md         # Project documentation
 ```
 
 ---
