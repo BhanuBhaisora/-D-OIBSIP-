@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secured Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🔐 Secured Page</h2>
+    <p id="welcomeMsg"></p>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script>
+    // Check if user is logged in
+    const currentUser = localStorage.getItem("loggedInUser");
+
+    if (!currentUser) {
+      alert("Access denied. Please login first.");
+      window.location.href = "login.html";
+    } else {
+      document.getElementById("welcomeMsg").innerText = `Welcome, ${currentUser}! You have access to this secured page.`;
+    }
+
+    function logout() {
+      localStorage.removeItem("loggedInUser");
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>
