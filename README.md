@@ -67,7 +67,3 @@ OIBSIP_WebDevelopment_Task/
 * Works on any browser without extra setup.
 * You can host it on **GitHub Pages** for free deployment.
 
-Thank You....
-
-Do you want me to also make you a **GitHub Pages deployment guide** so you can host your project online and just share the live link in your internship form?
-
